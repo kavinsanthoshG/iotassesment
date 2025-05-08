@@ -1,0 +1,12 @@
+SELECT
+    Timestamp,
+    DeviceID,
+    Location,
+    Temperature_C,
+    Humidity_Percent,
+    PM2_5,
+    PM10
+INTO
+    [streamdata]
+FROM
+    [iotware]
